@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Document</title>
+  </head>
+  <body>
+    <!--Log0 Banner-->
+    <div class="container" style="text-align: center;">
+        <br><br>
+        <a href="https://www.royalenfield.com/" target="_blank"><img style="width: 170px;height: 100px; filter: grayscale();" src="data:image/png;base64,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" alt=""></a>
+        <br>
+        <br>
+        <h5 class="lead"> <strong> State Bank Of India</strong></h5>
+      </div>
+      <div id = "alert_placeholder"></div>
+        <br><br><br>
+        <!--Login div-->
+    <div class="container">
+
+        
+        <div class="row">
+                <div class="col-md-12 col-lg-6">
+                        <h1 id="wel" class="display-3">Welcome !</h1>
+                    </div>
+                    <div class="col-md-12 col-lg-6 shadow p-3 mb-5 bg-white rounded border border-primary" style="">
+                        <h3>Login</h3>
+                            <form>
+                                    <div class="form-group">
+                                      <label for="exampleInputEmail1">Email address</label>
+                                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                    </div>
+                                    <div class="form-group">
+                                      <label for="exampleInputPassword1">Password</label>
+                                      <input type="password" class="form-control" id="exampleInputPassword1">
+                                    </div>
+                                    <div class="form-group form-check">
+                                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                      <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary" id="btn">Submit</button>
+                                  </form>
+                    </div>          
+
+          </div>
+    
+    
+    </div>
+
+    
+</body>
+     <script>
+      document.getElementById('btn').addEventListener('click',()=>{
+           console.log('hello')
+           if ($('#exampleInputEmail1').val()=="ariefsuhilmn"&& $('#exampleInputPassword1').val()=="6666") {
+           //sessionStorage =1
+           window.location.assign('dashboard.html')
+             
+           }else{
+             
+             alertBootstrap("Enter a valid password and email")
+            
+             
+           }
+         })
+         function alertBootstrap(message) {
+           console.log('itw working')
+            document.getElementById('alert_placeholder').innerHTML= (`<div class="alert alert-danger alert-dismissible fade show" role="alert">
+  <strong>Hey User!</strong> ${message}
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>`)
+        }
+     </script>
+</html>
